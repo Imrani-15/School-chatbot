@@ -1,0 +1,92 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Enquiry
+  - Parent
+  - Locations
+  - Name
+  - MobileNumber
+  - Email
+  - ResidingCity
+  - ChildName
+  - Grade
+  - EnqYear
+  - DateOfBith
+  - Relationship
+
+
+actions:
+  - utter_greet
+  - utter_Enquiry
+  - utter_Parent
+
+responses:
+  utter_greet:
+  - text: "Hello, Welcome to Oakridge International School!!! How can I help you today?"
+
+  utter_Enquiry:
+  - text: "Are you a new or an existing parent?"
+
+  utter_Parent:
+  - text: "Good Evening, Welcome to Oakridge International Schools. We have 5 schools in India. May I know which Oakridge School is your enquiry for?"
+
+  utter_Locations:
+  - text: "Thank you for your interest in our Oakridge Bachupally School.Before we begin, please provide us with your First Name & Last Name."
+
+  utter_Name:
+  - text: "Please enter your Mobile number"
+
+  utter_MobileNumber:
+  - text: "Please enter your email."
+
+  utter_Email:
+  - text: "May I know your current residing city?"
+
+
+  utter_ResidingCity:
+  - text: "To start the admission process,I would need a few more details. All the information will be shared with one of our Admission Officers. Our officer will get back to you with more details in 24 business hours.
+
+           May I know the Child's Name?"
+
+  utter_ChildName:
+  - text: "May I know which Grade are you enquiring for?"
+
+  utter_Grade:
+  - text: "Which academic year is the enquiry for?"
+
+  utter_EnqYear:
+  - text: "Please enter your Child's Date Of Birth."
+
+  utter_DateOfBith:
+  - text: "What is your relationship with the child?"
+
+  utter_Relationship:
+  - text: "Thank you.
+          Your personal details are kept secured via our server and have been shared with one of our Admissions Officer.
+          One of our Admissions officer will get in touch with you within 24 Business hours"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

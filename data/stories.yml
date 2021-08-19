@@ -1,0 +1,70 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- story: Enquiry
+  steps:
+  - intent: Enquiry
+  - action: utter_Enquiry
+
+- story: Parent
+  steps:
+  - intent: Parent
+  - action: utter_Parent
+
+- story: Locations
+  steps:
+  - intent: Locations
+  - action: utter_Locations
+
+- story: Name
+  steps:
+  - intent: Name
+  - action: utter_Name
+
+- story: MobileNumber
+  steps:
+  - intent: MobileNumber
+  - action: utter_MobileNumber
+
+- story: Email
+  steps:
+  - intent: Email
+  - action: utter_Email
+
+- story: ResidingCity
+  steps:
+  - intent: ResidingCity
+  - action: utter_ResidingCity
+
+- story: ChildName
+  steps:
+  - intent: ChildName
+  - action: utter_ChildName
+
+- story: Grade
+  steps:
+  - intent: Grade
+  - action: utter_Grade
+
+- story: EnqYear
+  steps:
+  - intent: EnqYear
+  - action: utter_EnqYear
+
+- story: DateOfBith
+  steps:
+  - intent: DateOfBith
+  - action: utter_DateOfBith
+
+- story: Relationship
+  steps:
+  - intent: Relationship
+  - action: utter_Relationship
+
